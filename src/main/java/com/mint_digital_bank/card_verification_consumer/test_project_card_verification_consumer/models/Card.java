@@ -40,4 +40,13 @@ public class Card {
     public void setBank(String bank) {
         this.bank = bank;
     }
+
+    @Override
+    public String toString(){
+        return "{\n" +
+                "sheme: "+scheme+",\n"+
+                "type: "+type+",\n"+
+                "bank: "+bank+"\n"+
+                "}";
+    }
 }
