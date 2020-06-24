@@ -1,0 +1,1 @@
+This project serves as the consumer project for the card verifier kafka project
