@@ -8,6 +8,7 @@ public class KafkaConsumer {
 
     @KafkaListener(topics = "com.ng.vela.even.card_verified",groupId="mint_group_id", containerFactory = "cardConcurrentKafkaListenerContainerFactory")
   public void consume(String card){
-      System.out.println(card);
+      //card can be deserialize into a Card object here
+        System.out.println(card);
   }
 }
